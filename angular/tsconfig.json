@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@demo-module": [
+        "projects/demo-module/src/public-api.ts"
+      ],
+      "@demo-module/config": [
+        "projects/demo-module/config/src/public-api.ts"
+      ],
+      "@proxy": ["projects/demo-module/src/lib/proxy/index.ts"],
+      "@proxy/*": ["projects/demo-module/src/lib/proxy/*"]
+    }
+  }
+}

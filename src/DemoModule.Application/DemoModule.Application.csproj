@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DemoModule</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.1.1" />
+    <ProjectReference Include="..\DemoModule.Application.Contracts\DemoModule.Application.Contracts.csproj" />
+    <ProjectReference Include="..\DemoModule.Domain\DemoModule.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
