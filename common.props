@@ -9,7 +9,6 @@
 		<Copyright>© HQSOFT Company Limited</Copyright>
 		<PackageOutputPath>C:\Working\Packages</PackageOutputPath>
 	</PropertyGroup>
-  
   <ItemGroup>
     <PackageReference Include="ConfigureAwait.Fody" Version="3.3.1" PrivateAssets="All" />
     <PackageReference Include="Fody" Version="6.5.3">

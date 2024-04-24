@@ -21,7 +21,7 @@ public class DemoModuleBlazorModule : AbpModule
 
         Configure<AbpAutoMapperOptions>(options =>
         {
-            options.AddProfile<DemoModuleBlazorAutoMapperProfile>(validate: true);
+            options.AddProfile<DemoModuleBlazorAutoMapperProfile>(validate: false);
         });
 
         Configure<AbpNavigationOptions>(options =>

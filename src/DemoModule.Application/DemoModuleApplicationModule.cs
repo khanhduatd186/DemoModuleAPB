@@ -18,7 +18,7 @@ public class DemoModuleApplicationModule : AbpModule
         context.Services.AddAutoMapperObjectMapper<DemoModuleApplicationModule>();
         Configure<AbpAutoMapperOptions>(options =>
         {
-            options.AddMaps<DemoModuleApplicationModule>(validate: true);
+            options.AddMaps<DemoModuleApplicationModule>(validate: false);
         });
     }
 }
